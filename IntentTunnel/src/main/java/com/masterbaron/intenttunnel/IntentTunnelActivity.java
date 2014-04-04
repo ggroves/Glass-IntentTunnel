@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.masterbaron.intenttunnel.glass.GlassConfigureActivity;
 import com.masterbaron.intenttunnel.android.AndroidConfigureActivity;
+import com.masterbaron.intenttunnel.glass.GlassConfigureActivity;
 import com.masterbaron.intenttunnel.router.RouterService;
 
 /**

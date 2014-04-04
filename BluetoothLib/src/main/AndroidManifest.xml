@@ -1,4 +1,3 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ktlab.lib.connection">
+<manifest package="ktlab.lib.connection">
 
 </manifest>

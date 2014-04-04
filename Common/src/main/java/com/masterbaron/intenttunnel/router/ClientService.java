@@ -2,16 +2,9 @@ package com.masterbaron.intenttunnel.router;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.os.Message;
 import android.util.Log;
 
-import com.masterbaron.intenttunnel.R;
-
-import java.util.Queue;
 import java.util.Set;
-import java.util.UUID;
 
 import ktlab.lib.connection.bluetooth.BluetoothConnection;
 import ktlab.lib.connection.bluetooth.ClientBluetoothConnection;

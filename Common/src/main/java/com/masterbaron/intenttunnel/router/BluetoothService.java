@@ -1,6 +1,5 @@
 package com.masterbaron.intenttunnel.router;
 
-import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -16,7 +15,6 @@ import java.io.ObjectOutputStream;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
@@ -24,7 +22,6 @@ import java.util.concurrent.TimeUnit;
 import ktlab.lib.connection.ConnectionCallback;
 import ktlab.lib.connection.ConnectionCommand;
 import ktlab.lib.connection.bluetooth.BluetoothConnection;
-import ktlab.lib.connection.bluetooth.ServerBluetoothConnection;
 
 /**
  * Created by Van Etten on 12/6/13.

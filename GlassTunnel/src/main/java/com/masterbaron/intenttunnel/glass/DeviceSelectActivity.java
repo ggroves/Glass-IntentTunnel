@@ -1,26 +1,17 @@
 package com.masterbaron.intenttunnel.glass;
 
 import android.app.Activity;
-import android.app.ListActivity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
-import android.widget.ListView;
 import android.widget.Toast;
 
-import com.masterbaron.intenttunnel.R;
 import com.masterbaron.intenttunnel.router.RouterService;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import ktlab.lib.connection.Connection;
 
 /**
  * Created by Van Etten on 1/4/14.

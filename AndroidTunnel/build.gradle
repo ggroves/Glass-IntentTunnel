@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.7.+'
+        classpath 'com.android.tools.build:gradle:0.9.+'
     }
 }
 apply plugin: 'android-library'
@@ -20,16 +20,18 @@ android {
         minSdkVersion 15
         targetSdkVersion 19
     }
-    release {
-        runProguard false
-        proguardFile 'proguard-rules.txt'
-        proguardFile getDefaultProguardFile('proguard-android-optimize.txt')
+    buildTypes {
+        release {
+            runProguard false
+            proguardFile 'proguard-rules.txt'
+            proguardFile getDefaultProguardFile('proguard-android-optimize.txt')
+        }
     }
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:18.0.0'
-    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.android.support:appcompat-v7:19.0.+'
+    compile 'com.android.support:support-v4:19.0.+'
     compile project(':BluetoothLib')
     compile project(':Common')
 }
